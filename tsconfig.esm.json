@@ -3,9 +3,9 @@
   "compilerOptions": {
     "strict": true,
     "sourceMap": true,
-    "target": "ESNext",
+    "target": "ES5",
+    "module": "ESNext",
     "moduleResolution": "node",
-    "module": "esnext",
     "sourceRoot": "src",
     "rootDir": "src",
     "outDir": "./dist/esm",

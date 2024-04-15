@@ -16,7 +16,7 @@ const config: Configuration[] = [
     devtool: 'inline-source-map',
     output: {
       library: 'XMindEmbedViewer',
-      libraryTarget: 'umd',
+      libraryTarget: 'module',
       libraryExport: 'XMindEmbedViewer',
       path: path.join(__dirname, 'dist'),
       filename: 'xmind-embed-viewer.js'
@@ -57,7 +57,8 @@ const config: Configuration[] = [
       library: 'XMindEmbedViewer',
       libraryTarget: 'umd',
       libraryExport: 'XMindEmbedViewer',
-      path: path.join(__dirname, 'dist/umd'),
+      // path: path.join(__dirname, 'dist/umd'),
+      path: path.join(__dirname, 'demo'),
       filename: 'xmind-embed-viewer.js'
     },
     plugins: [
